@@ -1,0 +1,25 @@
+running develop
+running egg_info
+writing ../../build/drive_with_DS4/drive_with_DS4.egg-info/PKG-INFO
+writing dependency_links to ../../build/drive_with_DS4/drive_with_DS4.egg-info/dependency_links.txt
+writing entry points to ../../build/drive_with_DS4/drive_with_DS4.egg-info/entry_points.txt
+writing requirements to ../../build/drive_with_DS4/drive_with_DS4.egg-info/requires.txt
+writing top-level names to ../../build/drive_with_DS4/drive_with_DS4.egg-info/top_level.txt
+reading manifest file '../../build/drive_with_DS4/drive_with_DS4.egg-info/SOURCES.txt'
+writing manifest file '../../build/drive_with_DS4/drive_with_DS4.egg-info/SOURCES.txt'
+running build
+running build_py
+copying drive_with_DS4/driver.py -> /home/ndt/ros2car-ws/build/drive_with_DS4/build/lib/drive_with_DS4
+running install
+running install_lib
+creating /home/ndt/ros2car-ws/install/drive_with_DS4/lib/python3.10/site-packages/drive_with_DS4
+copying /home/ndt/ros2car-ws/build/drive_with_DS4/build/lib/drive_with_DS4/driver.py -> /home/ndt/ros2car-ws/install/drive_with_DS4/lib/python3.10/site-packages/drive_with_DS4
+copying /home/ndt/ros2car-ws/build/drive_with_DS4/build/lib/drive_with_DS4/__init__.py -> /home/ndt/ros2car-ws/install/drive_with_DS4/lib/python3.10/site-packages/drive_with_DS4
+byte-compiling /home/ndt/ros2car-ws/install/drive_with_DS4/lib/python3.10/site-packages/drive_with_DS4/driver.py to driver.cpython-310.pyc
+byte-compiling /home/ndt/ros2car-ws/install/drive_with_DS4/lib/python3.10/site-packages/drive_with_DS4/__init__.py to __init__.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/drive_with_DS4/drive_with_DS4.egg-info to /home/ndt/ros2car-ws/install/drive_with_DS4/lib/python3.10/site-packages/drive_with_DS4-0.0.0-py3.10.egg-info
+running install_scripts
+Installing driver script to /home/ndt/ros2car-ws/install/drive_with_DS4/lib/drive_with_DS4
+writing list of installed files to '/home/ndt/ros2car-ws/build/drive_with_DS4/install.log'

@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing drive_with_DS4.egg-info/PKG-INFO
+writing dependency_links to drive_with_DS4.egg-info/dependency_links.txt
+writing entry points to drive_with_DS4.egg-info/entry_points.txt
+writing requirements to drive_with_DS4.egg-info/requires.txt
+writing top-level names to drive_with_DS4.egg-info/top_level.txt
+reading manifest file 'drive_with_DS4.egg-info/SOURCES.txt'
+writing manifest file 'drive_with_DS4.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ndt/ros2car-ws/install/drive_with_DS4/lib/python3.10/site-packages/drive-with-DS4.egg-link (link to .)
+Installing driver script to /home/ndt/ros2car-ws/install/drive_with_DS4/lib/drive_with_DS4
+
+Installed /home/ndt/ros2car-ws/build/drive_with_DS4
+running install_data

@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target ds4_driver_msgs__rosidl_generator_c[0m
+[  1%] Built target ds4_driver_msgs__cpp
+[ 12%] Built target ds4_driver_msgs__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target ds4_driver_msgs__rosidl_typesupport_cpp[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ds4_driver_msgs/msg/feedback__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ds4_driver_msgs/msg/status__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ds4_driver_msgs/msg/trackpad__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ds4_driver_msgs/msg/report__type_support.cpp.o[0m
+[ 21%] [32m[1mLinking CXX shared library libds4_driver_msgs__rosidl_typesupport_cpp.so[0m
+[ 23%] Built target ds4_driver_msgs__rosidl_typesupport_cpp

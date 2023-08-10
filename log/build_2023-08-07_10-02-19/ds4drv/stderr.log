@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ndt/ros2car-ws/build/ds4drv/setup.py", line 5, in <module>
+    readme = open("README.rst").read()
+FileNotFoundError: [Errno 2] No such file or directory: 'README.rst'

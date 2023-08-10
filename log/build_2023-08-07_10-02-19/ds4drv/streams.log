@@ -1,0 +1,5 @@
+[1.236s] Invoking command in '/home/ndt/ros2car-ws/build/ds4drv': PYTHONPATH=/home/ndt/ros2car-ws/build/ds4drv/prefix_override:/home/ndt/ros2car-ws/install/ds4drv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ndt/ros2car-ws/build/ds4drv/build --no-deps
+[1.791s] Traceback (most recent call last):
+[1.791s]   File "/home/ndt/ros2car-ws/build/ds4drv/setup.py", line 5, in <module>
+[1.791s]     readme = open("README.rst").read()
+[1.791s] FileNotFoundError: [Errno 2] No such file or directory: 'README.rst'

@@ -1,0 +1,125 @@
+[0.026s] Invoking command in '/home/ndt/ros2car-ws/build/udp_driver': AMENT_PREFIX_PATH=/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/io_context/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ndt/ros2car-ws/src/transport_drivers/udp_driver -DCMAKE_INSTALL_PREFIX=/home/ndt/ros2car-ws/install/udp_driver
+[0.127s] -- The C compiler identification is GNU 11.3.0
+[0.220s] -- The CXX compiler identification is GNU 11.3.0
+[0.232s] -- Detecting C compiler ABI info
+[0.353s] -- Detecting C compiler ABI info - done
+[0.361s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.361s] -- Detecting C compile features
+[0.362s] -- Detecting C compile features - done
+[0.366s] -- Detecting CXX compiler ABI info
+[0.513s] -- Detecting CXX compiler ABI info - done
+[0.519s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.519s] -- Detecting CXX compile features
+[0.520s] -- Detecting CXX compile features - done
+[0.523s] -- Found ament_cmake_auto: 1.3.4 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.741s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.995s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.005s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.019s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.039s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.066s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.158s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.162s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.338s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.378s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.444s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.461s] -- Looking for pthread.h
+[1.688s] -- Looking for pthread.h - found
+[1.688s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.849s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.852s] -- Found Threads: TRUE  
+[2.318s] -- Found ASIO: /usr/include  
+[2.412s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.448s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.474s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.478s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.479s] -- Configured cppcheck include dirs: /home/ndt/ros2car-ws/src/transport_drivers/udp_driver/include
+[2.479s] -- Configured cppcheck exclude dirs and/or files: 
+[2.483s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.483s] -- Configured cpplint exclude dirs and/or files: 
+[2.485s] -- Added test 'lint_cmake' to check CMake code style
+[2.490s] -- Added test 'uncrustify' to check C / C++ code style
+[2.490s] -- Configured uncrustify additional arguments: 
+[2.491s] -- Added test 'xmllint' to check XML markup files
+[2.496s] -- Configuring done
+[2.890s] -- Generating done
+[2.894s] -- Build files have been written to: /home/ndt/ros2car-ws/build/udp_driver
+[2.913s] Invoked command in '/home/ndt/ros2car-ws/build/udp_driver' returned '0': AMENT_PREFIX_PATH=/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/io_context/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ndt/ros2car-ws/src/transport_drivers/udp_driver -DCMAKE_INSTALL_PREFIX=/home/ndt/ros2car-ws/install/udp_driver
+[2.913s] Invoking command in '/home/ndt/ros2car-ws/build/udp_driver': AMENT_PREFIX_PATH=/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/io_context/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ndt/ros2car-ws/build/udp_driver -- -j6 -l6
+[3.061s] [  4%] [32mBuilding CXX object CMakeFiles/udp_driver.dir/src/udp_driver.cpp.o[0m
+[3.063s] [  8%] [32mBuilding CXX object CMakeFiles/udp_driver.dir/src/udp_socket.cpp.o[0m
+[3.070s] [ 12%] [32mBuilding CXX object CMakeFiles/udp_receiver_node_exe.dir/rclcpp_components/node_main_udp_receiver_node_exe.cpp.o[0m
+[3.122s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.161s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.167s] [ 25%] [32mBuilding CXX object CMakeFiles/udp_sender_node_exe.dir/rclcpp_components/node_main_udp_sender_node_exe.cpp.o[0m
+[5.521s] [ 29%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.762s] [ 29%] Built target gtest_main
+[12.309s] [ 33%] [32m[1mLinking CXX executable udp_receiver_node_exe[0m
+[12.362s] [ 37%] [32m[1mLinking CXX static library libgtest.a[0m
+[12.509s] [ 41%] [32m[1mLinking CXX shared library libudp_driver.so[0m
+[12.603s] [ 41%] Built target udp_receiver_node_exe
+[12.611s] [ 41%] Built target gtest
+[12.798s] [ 45%] [32m[1mLinking CXX executable udp_sender_node_exe[0m
+[12.914s] [ 45%] Built target udp_driver
+[13.063s] [ 50%] [32mBuilding CXX object CMakeFiles/udp_driver_nodes.dir/src/udp_receiver_node.cpp.o[0m
+[13.079s] [ 54%] [32mBuilding CXX object CMakeFiles/udp_driver_nodes.dir/src/udp_sender_node.cpp.o[0m
+[13.185s] [ 54%] Built target udp_sender_node_exe
+[26.894s] [ 58%] [32m[1mLinking CXX shared library libudp_driver_nodes.so[0m
+[27.766s] [ 58%] Built target udp_driver_nodes
+[27.807s] [ 62%] [32mBuilding CXX object CMakeFiles/udp_bridge_node_exe.dir/src/udp_bridge_node.cpp.o[0m
+[27.810s] [ 66%] [32mBuilding CXX object CMakeFiles/test_udp_data.dir/test/test_udp_data.cpp.o[0m
+[27.812s] [ 70%] [32mBuilding CXX object CMakeFiles/test_udp_driver.dir/test/test_udp_driver.cpp.o[0m
+[27.818s] [ 75%] [32mBuilding CXX object CMakeFiles/test_udp_socket.dir/test/test_udp_socket.cpp.o[0m
+[27.832s] [ 79%] [32mBuilding CXX object CMakeFiles/test_udp_driver_nodes.dir/test/test_udp_driver_nodes.cpp.o[0m
+[31.260s] [ 83%] [32m[1mLinking CXX executable test_udp_socket[0m
+[31.459s] [ 87%] [32m[1mLinking CXX executable test_udp_data[0m
+[31.654s] [ 87%] Built target test_udp_socket
+[31.888s] [ 87%] Built target test_udp_data
+[34.323s] [ 91%] [32m[1mLinking CXX executable udp_bridge_node_exe[0m
+[34.755s] [ 91%] Built target udp_bridge_node_exe
+[34.826s] [ 95%] [32m[1mLinking CXX executable test_udp_driver[0m
+[35.205s] [ 95%] Built target test_udp_driver
+[42.219s] [100%] [32m[1mLinking CXX executable test_udp_driver_nodes[0m
+[43.070s] [100%] Built target test_udp_driver_nodes
+[43.087s] Invoked command in '/home/ndt/ros2car-ws/build/udp_driver' returned '0': AMENT_PREFIX_PATH=/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/io_context/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ndt/ros2car-ws/build/udp_driver -- -j6 -l6
+[43.228s] Invoking command in '/home/ndt/ros2car-ws/build/udp_driver': AMENT_PREFIX_PATH=/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/io_context/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ndt/ros2car-ws/build/udp_driver
+[43.240s] -- Install configuration: ""
+[43.240s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/lib/udp_driver/udp_receiver_node_exe
+[43.242s] -- Set runtime path of "/home/ndt/ros2car-ws/install/udp_driver/lib/udp_driver/udp_receiver_node_exe" to ""
+[43.242s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/lib/udp_driver/udp_sender_node_exe
+[43.244s] -- Set runtime path of "/home/ndt/ros2car-ws/install/udp_driver/lib/udp_driver/udp_sender_node_exe" to ""
+[43.244s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/include
+[43.245s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/include/udp_driver
+[43.245s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/include/udp_driver/udp_receiver_node.hpp
+[43.245s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/include/udp_driver/udp_driver.hpp
+[43.246s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/include/udp_driver/udp_socket.hpp
+[43.246s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/include/udp_driver/visibility_control.hpp
+[43.246s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/include/udp_driver/udp_sender_node.hpp
+[43.246s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/environment/library_path.sh
+[43.246s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/environment/library_path.dsv
+[43.247s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/lib/libudp_driver.so
+[43.250s] -- Set runtime path of "/home/ndt/ros2car-ws/install/udp_driver/lib/libudp_driver.so" to ""
+[43.250s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/lib/libudp_driver_nodes.so
+[43.265s] -- Set runtime path of "/home/ndt/ros2car-ws/install/udp_driver/lib/libudp_driver_nodes.so" to ""
+[43.265s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/lib/udp_driver/udp_bridge_node_exe
+[43.267s] -- Set runtime path of "/home/ndt/ros2car-ws/install/udp_driver/lib/udp_driver/udp_bridge_node_exe" to ""
+[43.267s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/share/ament_index/resource_index/package_run_dependencies/udp_driver
+[43.267s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/share/ament_index/resource_index/parent_prefix_path/udp_driver
+[43.268s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/environment/ament_prefix_path.sh
+[43.268s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/environment/ament_prefix_path.dsv
+[43.268s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/environment/path.sh
+[43.268s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/environment/path.dsv
+[43.269s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/local_setup.bash
+[43.269s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/local_setup.sh
+[43.270s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/local_setup.zsh
+[43.270s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/local_setup.dsv
+[43.270s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/package.dsv
+[43.271s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/share/ament_index/resource_index/packages/udp_driver
+[43.271s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/share/ament_index/resource_index/rclcpp_components/udp_driver
+[43.272s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[43.272s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[43.272s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[43.273s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/cmake/udp_driverConfig.cmake
+[43.273s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/cmake/udp_driverConfig-version.cmake
+[43.273s] -- Installing: /home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/package.xml
+[43.278s] Invoked command in '/home/ndt/ros2car-ws/build/udp_driver' returned '0': AMENT_PREFIX_PATH=/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/io_context/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ndt/ros2car-ws/build/udp_driver

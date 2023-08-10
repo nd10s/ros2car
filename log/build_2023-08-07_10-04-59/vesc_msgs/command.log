@@ -1,0 +1,2 @@
+Invoking command in '/home/ndt/ros2car-ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ndt/ros2car-ws/install/drive_with_DS4:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/vesc_msgs -- -j6 -l6
+Invoked command in '/home/ndt/ros2car-ws/build/vesc_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ndt/ros2car-ws/install/drive_with_DS4:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/vesc_msgs -- -j6 -l6

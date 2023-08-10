@@ -1,0 +1,1 @@
+Invoking command in '/home/ndt/ros2car-ws/build/ds4_driver_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ndt/ros2car-ws/install/drive_with_DS4:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/ds4_driver_msgs -- -j6 -l6

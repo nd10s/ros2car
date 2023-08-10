@@ -1,0 +1,1 @@
+Invoking command in '/home/ndt/ros2car-ws/build/drive_with_DS4': PYTHONPATH=/home/ndt/ros2car-ws/build/drive_with_DS4/prefix_override:/home/ndt/ros2car-ws/install/drive_with_DS4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ndt/ros2car-ws/build/drive_with_DS4/build

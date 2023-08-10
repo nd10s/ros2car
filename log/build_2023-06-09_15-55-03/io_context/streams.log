@@ -1,0 +1,42 @@
+[0.023s] Invoking command in '/home/ndt/ros2car-ws/build/io_context': AMENT_PREFIX_PATH=/home/ndt/ros2car-ws/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/io_context -- -j6 -l6
+[0.115s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.116s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.118s] [35m[1mConsolidate compiler generated dependencies of target io_context[0m
+[0.162s] [ 22%] Built target gtest_main
+[0.169s] [ 44%] Built target gtest
+[0.181s] [ 77%] Built target io_context
+[0.211s] [35m[1mConsolidate compiler generated dependencies of target test_io_context[0m
+[0.265s] [100%] Built target test_io_context
+[0.290s] Invoked command in '/home/ndt/ros2car-ws/build/io_context' returned '0': AMENT_PREFIX_PATH=/home/ndt/ros2car-ws/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/io_context -- -j6 -l6
+[0.394s] Invoking command in '/home/ndt/ros2car-ws/build/io_context': AMENT_PREFIX_PATH=/home/ndt/ros2car-ws/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble /usr/bin/cmake --install /home/ndt/ros2car-ws/build/io_context
+[0.411s] -- Install configuration: ""
+[0.411s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/include
+[0.411s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/include/msg_converters
+[0.412s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/include/msg_converters/udp_msgs.hpp
+[0.412s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/include/msg_converters/converters.hpp
+[0.412s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/include/msg_converters/std_msgs.hpp
+[0.412s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/include/io_context
+[0.412s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/include/io_context/io_context.hpp
+[0.412s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/include/io_context/common.hpp
+[0.412s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/share/io_context/environment/library_path.sh
+[0.413s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/share/io_context/environment/library_path.dsv
+[0.413s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/lib/libio_context.so
+[0.415s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/share/ament_index/resource_index/package_run_dependencies/io_context
+[0.416s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/share/ament_index/resource_index/parent_prefix_path/io_context
+[0.416s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/share/io_context/environment/ament_prefix_path.sh
+[0.416s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/share/io_context/environment/ament_prefix_path.dsv
+[0.416s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/share/io_context/environment/path.sh
+[0.417s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/share/io_context/environment/path.dsv
+[0.417s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/share/io_context/local_setup.bash
+[0.417s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/share/io_context/local_setup.sh
+[0.417s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/share/io_context/local_setup.zsh
+[0.417s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/share/io_context/local_setup.dsv
+[0.417s] -- Installing: /home/ndt/ros2car-ws/install/io_context/share/io_context/package.dsv
+[0.417s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/share/ament_index/resource_index/packages/io_context
+[0.418s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/share/io_context/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.418s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/share/io_context/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.418s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/share/io_context/cmake/ament_cmake_export_libraries-extras.cmake
+[0.422s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/share/io_context/cmake/io_contextConfig.cmake
+[0.424s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/share/io_context/cmake/io_contextConfig-version.cmake
+[0.424s] -- Up-to-date: /home/ndt/ros2car-ws/install/io_context/share/io_context/package.xml
+[0.425s] Invoked command in '/home/ndt/ros2car-ws/build/io_context' returned '0': AMENT_PREFIX_PATH=/home/ndt/ros2car-ws/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble /usr/bin/cmake --install /home/ndt/ros2car-ws/build/io_context

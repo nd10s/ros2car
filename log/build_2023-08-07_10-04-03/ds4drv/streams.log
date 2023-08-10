@@ -1,0 +1,5 @@
+[1.472s] Invoking command in '/home/ndt/ros2car-ws/build/ds4drv': PYTHONPATH=/home/ndt/ros2car-ws/build/ds4drv/prefix_override:/home/ndt/ros2car-ws/install/ds4drv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ndt/ros2car-ws/build/ds4drv/build
+[1.788s] Traceback (most recent call last):
+[1.788s]   File "/home/ndt/ros2car-ws/build/ds4drv/setup.py", line 7, in <module>
+[1.788s]     history = open("HISTORY.rst").read()
+[1.788s] FileNotFoundError: [Errno 2] No such file or directory: 'HISTORY.rst'

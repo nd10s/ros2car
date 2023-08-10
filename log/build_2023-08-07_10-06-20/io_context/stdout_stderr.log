@@ -1,0 +1,4 @@
+[ 22%] Built target gtest_main
+[ 44%] Built target gtest
+[ 77%] Built target io_context
+[100%] Built target test_io_context

@@ -1,0 +1,47 @@
+[0.037s] Invoking command in '/home/ndt/ros2car-ws/build/asio_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ndt/ros2car-ws/src/transport_drivers/asio_cmake_module -DCMAKE_INSTALL_PREFIX=/home/ndt/ros2car-ws/install/asio_cmake_module
+[0.137s] -- The C compiler identification is GNU 11.3.0
+[0.244s] -- The CXX compiler identification is GNU 11.3.0
+[0.254s] -- Detecting C compiler ABI info
+[0.377s] -- Detecting C compiler ABI info - done
+[0.384s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.385s] -- Detecting C compile features
+[0.385s] -- Detecting C compile features - done
+[0.389s] -- Detecting CXX compiler ABI info
+[0.527s] -- Detecting CXX compiler ABI info - done
+[0.536s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.537s] -- Detecting CXX compile features
+[0.537s] -- Detecting CXX compile features - done
+[0.541s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.758s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.863s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.961s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.965s] -- Added test 'lint_cmake' to check CMake code style
+[0.967s] -- Added test 'xmllint' to check XML markup files
+[0.969s] -- Configuring done
+[0.975s] -- Generating done
+[0.976s] -- Build files have been written to: /home/ndt/ros2car-ws/build/asio_cmake_module
+[0.983s] Invoked command in '/home/ndt/ros2car-ws/build/asio_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ndt/ros2car-ws/src/transport_drivers/asio_cmake_module -DCMAKE_INSTALL_PREFIX=/home/ndt/ros2car-ws/install/asio_cmake_module
+[0.986s] Invoking command in '/home/ndt/ros2car-ws/build/asio_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/asio_cmake_module -- -j6 -l6
+[1.047s] Invoked command in '/home/ndt/ros2car-ws/build/asio_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/asio_cmake_module -- -j6 -l6
+[1.093s] Invoking command in '/home/ndt/ros2car-ws/build/asio_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ndt/ros2car-ws/build/asio_cmake_module
+[1.104s] -- Install configuration: ""
+[1.110s] -- Installing: /home/ndt/ros2car-ws/install/asio_cmake_module/share/ament_index/resource_index/package_run_dependencies/asio_cmake_module
+[1.110s] -- Installing: /home/ndt/ros2car-ws/install/asio_cmake_module/share/ament_index/resource_index/parent_prefix_path/asio_cmake_module
+[1.112s] -- Installing: /home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/environment/ament_prefix_path.sh
+[1.113s] -- Installing: /home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/environment/ament_prefix_path.dsv
+[1.113s] -- Installing: /home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/environment/path.sh
+[1.114s] -- Installing: /home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/environment/path.dsv
+[1.114s] -- Installing: /home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/local_setup.bash
+[1.115s] -- Installing: /home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/local_setup.sh
+[1.115s] -- Installing: /home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/local_setup.zsh
+[1.115s] -- Installing: /home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/local_setup.dsv
+[1.115s] -- Installing: /home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/package.dsv
+[1.115s] -- Installing: /home/ndt/ros2car-ws/install/asio_cmake_module/share/ament_index/resource_index/packages/asio_cmake_module
+[1.116s] -- Installing: /home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/cmake/asio_cmake_module-extras.cmake
+[1.116s] -- Installing: /home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/cmake/asio_cmake_moduleConfig.cmake
+[1.120s] -- Installing: /home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/cmake/asio_cmake_moduleConfig-version.cmake
+[1.120s] -- Installing: /home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/package.xml
+[1.121s] -- Up-to-date: /home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/cmake
+[1.122s] -- Installing: /home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/cmake/Modules
+[1.122s] -- Installing: /home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/cmake/Modules/FindASIO.cmake
+[1.122s] Invoked command in '/home/ndt/ros2car-ws/build/asio_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ndt/ros2car-ws/build/asio_cmake_module

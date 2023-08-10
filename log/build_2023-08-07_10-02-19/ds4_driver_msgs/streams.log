@@ -1,0 +1,10 @@
+[0.065s] Invoking command in '/home/ndt/ros2car-ws/build/ds4_driver_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ndt/ros2car-ws/install/drive_with_DS4:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/ds4_driver_msgs -- -j6 -l6
+[0.676s] [35m[1mConsolidate compiler generated dependencies of target ds4_driver_msgs__rosidl_generator_c[0m
+[0.676s] [  1%] Built target ds4_driver_msgs__cpp
+[0.677s] [ 12%] Built target ds4_driver_msgs__rosidl_generator_c
+[0.677s] failed to create symbolic link '/home/ndt/ros2car-ws/build/ds4_driver_msgs/ament_cmake_python/ds4_driver_msgs/ds4_driver_msgs' because existing path cannot be removed: Is a directory
+[0.678s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_ds4_driver_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_ds4_driver_msgs] Error 1
+[0.679s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_ds4_driver_msgs.dir/all] Error 2
+[0.679s] gmake[1]: *** Waiting for unfinished jobs....
+[0.679s] gmake: *** [Makefile:146: all] Error 2
+[0.692s] Invoked command in '/home/ndt/ros2car-ws/build/ds4_driver_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ndt/ros2car-ws/install/drive_with_DS4:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/ds4_driver_msgs -- -j6 -l6

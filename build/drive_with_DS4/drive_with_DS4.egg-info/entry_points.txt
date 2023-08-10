@@ -1,0 +1,3 @@
+[console_scripts]
+driver = drive_with_DS4.driver:main
+

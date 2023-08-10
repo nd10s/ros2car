@@ -1,0 +1,6 @@
+Invoking command in '/home/ndt/ros2car-ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ndt/ros2car-ws/src/vesc/vesc_msgs -DCMAKE_INSTALL_PREFIX=/home/ndt/ros2car-ws/install/vesc_msgs
+Invoked command in '/home/ndt/ros2car-ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ndt/ros2car-ws/src/vesc/vesc_msgs -DCMAKE_INSTALL_PREFIX=/home/ndt/ros2car-ws/install/vesc_msgs
+Invoking command in '/home/ndt/ros2car-ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/vesc_msgs -- -j6 -l6
+Invoked command in '/home/ndt/ros2car-ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/vesc_msgs -- -j6 -l6
+Invoking command in '/home/ndt/ros2car-ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ndt/ros2car-ws/build/vesc_msgs
+Invoked command in '/home/ndt/ros2car-ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ndt/ros2car-ws/build/vesc_msgs

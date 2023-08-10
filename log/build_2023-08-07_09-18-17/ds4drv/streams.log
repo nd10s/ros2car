@@ -1,0 +1,24 @@
+[1.537s] Invoking command in '/home/ndt/ros2car-ws/src/ds4drv': PYTHONPATH=/home/ndt/ros2car-ws/build/ds4drv/prefix_override:/home/ndt/ros2car-ws/install/ds4drv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ds4drv build --build-base /home/ndt/ros2car-ws/build/ds4drv/build install --record /home/ndt/ros2car-ws/build/ds4drv/install.log --single-version-externally-managed
+[1.995s] running egg_info
+[1.995s] writing ../../build/ds4drv/ds4drv.egg-info/PKG-INFO
+[1.995s] writing dependency_links to ../../build/ds4drv/ds4drv.egg-info/dependency_links.txt
+[1.995s] writing entry points to ../../build/ds4drv/ds4drv.egg-info/entry_points.txt
+[1.995s] writing requirements to ../../build/ds4drv/ds4drv.egg-info/requires.txt
+[2.002s] writing top-level names to ../../build/ds4drv/ds4drv.egg-info/top_level.txt
+[2.002s] reading manifest file '../../build/ds4drv/ds4drv.egg-info/SOURCES.txt'
+[2.002s] reading manifest template 'MANIFEST.in'
+[2.005s] adding license file 'LICENSE'
+[2.006s] writing manifest file '../../build/ds4drv/ds4drv.egg-info/SOURCES.txt'
+[2.006s] running build
+[2.006s] running build_py
+[2.023s] running install
+[2.023s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.023s]   warnings.warn(
+[2.024s] running install_lib
+[2.036s] running install_egg_info
+[2.042s] removing '/home/ndt/ros2car-ws/install/ds4drv/lib/python3.10/site-packages/ds4drv-0.5.1-py3.10.egg-info' (and everything under it)
+[2.042s] Copying ../../build/ds4drv/ds4drv.egg-info to /home/ndt/ros2car-ws/install/ds4drv/lib/python3.10/site-packages/ds4drv-0.5.1-py3.10.egg-info
+[2.047s] running install_scripts
+[2.078s] Installing ds4drv script to /home/ndt/ros2car-ws/install/ds4drv/bin
+[2.081s] writing list of installed files to '/home/ndt/ros2car-ws/build/ds4drv/install.log'
+[2.122s] Invoked command in '/home/ndt/ros2car-ws/src/ds4drv' returned '0': PYTHONPATH=/home/ndt/ros2car-ws/build/ds4drv/prefix_override:/home/ndt/ros2car-ws/install/ds4drv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ds4drv build --build-base /home/ndt/ros2car-ws/build/ds4drv/build install --record /home/ndt/ros2car-ws/build/ds4drv/install.log --single-version-externally-managed

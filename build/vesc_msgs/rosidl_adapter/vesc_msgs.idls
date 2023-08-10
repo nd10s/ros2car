@@ -1,0 +1,4 @@
+/home/ndt/ros2car-ws/build/vesc_msgs/rosidl_adapter/vesc_msgs:msg/VescState.idl
+/home/ndt/ros2car-ws/build/vesc_msgs/rosidl_adapter/vesc_msgs:msg/VescStateStamped.idl
+/home/ndt/ros2car-ws/build/vesc_msgs/rosidl_adapter/vesc_msgs:msg/VescImu.idl
+/home/ndt/ros2car-ws/build/vesc_msgs/rosidl_adapter/vesc_msgs:msg/VescImuStamped.idl

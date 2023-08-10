@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ndt/ros2car-ws/install/vesc_driver/include/**",
+        "/home/ndt/ros2car-ws/install/vesc_ackermann/include/**",
+        "/home/ndt/ros2car-ws/install/vesc_msgs/include/**",
+        "/home/ndt/ros2car-ws/install/udp_driver/include/**",
+        "/home/ndt/ros2car-ws/install/serial_driver/include/**",
+        "/home/ndt/ros2car-ws/install/io_context/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/ndt/ros2car-ws/src/transport_drivers/io_context/include/**",
+        "/home/ndt/ros2car-ws/src/transport_drivers/serial_driver/include/**",
+        "/home/ndt/ros2car-ws/src/transport_drivers/udp_driver/include/**",
+        "/home/ndt/ros2car-ws/src/vesc/vesc_ackermann/include/**",
+        "/home/ndt/ros2car-ws/src/vesc/vesc_driver/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

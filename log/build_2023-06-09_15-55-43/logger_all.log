@@ -1,0 +1,783 @@
+[0.366s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.367s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9718a3cbb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9719182020>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9719182020>>)
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.400s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ndt/ros2car-ws'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extension 'ignore'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extension 'ignore_ament_install'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extensions ['colcon_pkg']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extension 'colcon_pkg'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extensions ['colcon_meta']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extension 'colcon_meta'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extensions ['ros']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extension 'ros'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extensions ['cmake', 'python']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extension 'cmake'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extension 'python'
+[0.415s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/ds4drv' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extensions ['python_setup_py']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4drv) by extension 'python_setup_py'
+[0.720s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ds4drv' with type 'python' and name 'ds4drv'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extension 'ignore'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extension 'ignore_ament_install'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extensions ['colcon_pkg']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extension 'colcon_pkg'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extensions ['colcon_meta']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extension 'colcon_meta'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extensions ['ros']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extension 'ros'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extensions ['cmake', 'python']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extension 'cmake'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extension 'python'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extensions ['python_setup_py']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extension 'python_setup_py'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extensions ['ignore', 'ignore_ament_install']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extension 'ignore'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extension 'ignore_ament_install'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extensions ['colcon_pkg']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extension 'colcon_pkg'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extensions ['colcon_meta']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extension 'colcon_meta'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extensions ['ros']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extension 'ros'
+[0.725s] DEBUG:colcon.colcon_core.package_identification:Package 'src/transport_drivers/asio_cmake_module' with type 'ros.ament_cmake' and name 'asio_cmake_module'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extensions ['ignore', 'ignore_ament_install']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extension 'ignore'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extension 'ignore_ament_install'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extensions ['colcon_pkg']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extension 'colcon_pkg'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extensions ['colcon_meta']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extension 'colcon_meta'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extensions ['ros']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extension 'ros'
+[0.726s] DEBUG:colcon.colcon_core.package_identification:Package 'src/transport_drivers/io_context' with type 'ros.ament_cmake' and name 'io_context'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extension 'ignore'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extension 'ignore_ament_install'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extensions ['colcon_pkg']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extension 'colcon_pkg'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extensions ['colcon_meta']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extension 'colcon_meta'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extensions ['ros']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extension 'ros'
+[0.728s] DEBUG:colcon.colcon_core.package_identification:Package 'src/transport_drivers/serial_driver' with type 'ros.ament_cmake' and name 'serial_driver'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extension 'ignore'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extension 'ignore_ament_install'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extensions ['colcon_pkg']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extension 'colcon_pkg'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extensions ['colcon_meta']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extension 'colcon_meta'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extensions ['ros']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extension 'ros'
+[0.730s] DEBUG:colcon.colcon_core.package_identification:Package 'src/transport_drivers/udp_driver' with type 'ros.ament_cmake' and name 'udp_driver'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['ignore', 'ignore_ament_install']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'ignore'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'ignore_ament_install'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['colcon_pkg']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'colcon_pkg'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['colcon_meta']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'colcon_meta'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['ros']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'ros'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['cmake', 'python']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'cmake'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'python'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['python_setup_py']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'python_setup_py'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extensions ['ignore', 'ignore_ament_install']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'ignore'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'ignore_ament_install'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extensions ['colcon_pkg']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'colcon_pkg'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extensions ['colcon_meta']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'colcon_meta'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extensions ['ros']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'ros'
+[0.733s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vesc/vesc' with type 'ros.ament_cmake' and name 'vesc'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extensions ['ignore', 'ignore_ament_install']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extension 'ignore'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extension 'ignore_ament_install'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extensions ['colcon_pkg']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extension 'colcon_pkg'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extensions ['colcon_meta']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extension 'colcon_meta'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extensions ['ros']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extension 'ros'
+[0.735s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vesc/vesc_ackermann' with type 'ros.ament_cmake' and name 'vesc_ackermann'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'ignore'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'ignore_ament_install'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extensions ['colcon_pkg']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'colcon_pkg'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extensions ['colcon_meta']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'colcon_meta'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extensions ['ros']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'ros'
+[0.736s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vesc/vesc_driver' with type 'ros.ament_cmake' and name 'vesc_driver'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'ignore'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'ignore_ament_install'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extensions ['colcon_pkg']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'colcon_pkg'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extensions ['colcon_meta']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'colcon_meta'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extensions ['ros']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'ros'
+[0.738s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vesc/vesc_msgs' with type 'ros.ament_cmake' and name 'vesc_msgs'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ros']
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ros'
+[0.739s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.770s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/ndt/ros2car-ws/install
+[0.771s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ndt/ydlidar_ros2_ws/install
+[0.774s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 330 installed packages in /opt/ros/humble
+[0.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'cmake_args' from command line to 'None'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'cmake_target' from command line to 'None'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'cmake_clean_cache' from command line to 'False'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'cmake_clean_first' from command line to 'False'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'cmake_force_configure' from command line to 'False'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'ament_cmake_args' from command line to 'None'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'catkin_cmake_args' from command line to 'None'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.862s] DEBUG:colcon.colcon_core.verb:Building package 'asio_cmake_module' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ndt/ros2car-ws/build/asio_cmake_module', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ndt/ros2car-ws/install/asio_cmake_module', 'merge_install': False, 'path': '/home/ndt/ros2car-ws/src/transport_drivers/asio_cmake_module', 'symlink_install': False, 'test_result_base': None}
+[0.862s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'cmake_args' from command line to 'None'
+[0.862s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'cmake_target' from command line to 'None'
+[0.862s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.863s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'cmake_clean_cache' from command line to 'False'
+[0.863s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'cmake_clean_first' from command line to 'False'
+[0.863s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'cmake_force_configure' from command line to 'False'
+[0.863s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'ament_cmake_args' from command line to 'None'
+[0.863s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'catkin_cmake_args' from command line to 'None'
+[0.863s] Level 5:colcon.colcon_core.verb:set package 'ds4drv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.863s] DEBUG:colcon.colcon_core.verb:Building package 'ds4drv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ndt/ros2car-ws/build/ds4drv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ndt/ros2car-ws/install/ds4drv', 'merge_install': False, 'path': '/home/ndt/ros2car-ws/src/ds4drv', 'symlink_install': False, 'test_result_base': None}
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_args' from command line to 'None'
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_target' from command line to 'None'
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.864s] DEBUG:colcon.colcon_core.verb:Building package 'vesc_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ndt/ros2car-ws/build/vesc_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ndt/ros2car-ws/install/vesc_msgs', 'merge_install': False, 'path': '/home/ndt/ros2car-ws/src/vesc/vesc_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.865s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.865s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.865s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.865s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.865s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.865s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.865s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.865s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.865s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.865s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ndt/ros2car-ws/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/ndt/ros2car-ws/src/ydlidar_ros2_driver', 'symlink_install': False, 'test_result_base': None}
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'cmake_args' from command line to 'None'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'cmake_target' from command line to 'None'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'cmake_clean_cache' from command line to 'False'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'cmake_clean_first' from command line to 'False'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'cmake_force_configure' from command line to 'False'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'ament_cmake_args' from command line to 'None'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'catkin_cmake_args' from command line to 'None'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.866s] DEBUG:colcon.colcon_core.verb:Building package 'io_context' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ndt/ros2car-ws/build/io_context', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ndt/ros2car-ws/install/io_context', 'merge_install': False, 'path': '/home/ndt/ros2car-ws/src/transport_drivers/io_context', 'symlink_install': False, 'test_result_base': None}
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_args' from command line to 'None'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_target' from command line to 'None'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_clean_cache' from command line to 'False'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_clean_first' from command line to 'False'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_force_configure' from command line to 'False'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'ament_cmake_args' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'catkin_cmake_args' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.868s] DEBUG:colcon.colcon_core.verb:Building package 'vesc_ackermann' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ndt/ros2car-ws/build/vesc_ackermann', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ndt/ros2car-ws/install/vesc_ackermann', 'merge_install': False, 'path': '/home/ndt/ros2car-ws/src/vesc/vesc_ackermann', 'symlink_install': False, 'test_result_base': None}
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_args' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_target' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.869s] DEBUG:colcon.colcon_core.verb:Building package 'serial_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ndt/ros2car-ws/build/serial_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ndt/ros2car-ws/install/serial_driver', 'merge_install': False, 'path': '/home/ndt/ros2car-ws/src/transport_drivers/serial_driver', 'symlink_install': False, 'test_result_base': None}
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'cmake_args' from command line to 'None'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'cmake_target' from command line to 'None'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.870s] DEBUG:colcon.colcon_core.verb:Building package 'udp_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ndt/ros2car-ws/build/udp_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ndt/ros2car-ws/install/udp_driver', 'merge_install': False, 'path': '/home/ndt/ros2car-ws/src/transport_drivers/udp_driver', 'symlink_install': False, 'test_result_base': None}
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_args' from command line to 'None'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_target' from command line to 'None'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.871s] DEBUG:colcon.colcon_core.verb:Building package 'vesc_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ndt/ros2car-ws/build/vesc_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ndt/ros2car-ws/install/vesc_driver', 'merge_install': False, 'path': '/home/ndt/ros2car-ws/src/vesc/vesc_driver', 'symlink_install': False, 'test_result_base': None}
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_args' from command line to 'None'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_target' from command line to 'None'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_clean_first' from command line to 'False'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_force_configure' from command line to 'False'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'ament_cmake_args' from command line to 'None'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.872s] DEBUG:colcon.colcon_core.verb:Building package 'vesc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ndt/ros2car-ws/build/vesc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ndt/ros2car-ws/install/vesc', 'merge_install': False, 'path': '/home/ndt/ros2car-ws/src/vesc/vesc', 'symlink_install': False, 'test_result_base': None}
+[0.873s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.876s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.876s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ndt/ros2car-ws/src/transport_drivers/asio_cmake_module' with build type 'ament_cmake'
+[0.876s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ndt/ros2car-ws/src/transport_drivers/asio_cmake_module'
+[0.882s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.882s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.882s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.891s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ndt/ros2car-ws/src/vesc/vesc_msgs' with build type 'ament_cmake'
+[0.891s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ndt/ros2car-ws/src/vesc/vesc_msgs'
+[0.892s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.892s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.904s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ndt/ros2car-ws/src/ds4drv'
+[0.906s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.906s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.915s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ndt/ros2car-ws/src/ydlidar_ros2_driver' with build type 'ament_cmake'
+[0.915s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ndt/ros2car-ws/src/ydlidar_ros2_driver'
+[0.917s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.917s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ndt/ros2car-ws/build/asio_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/asio_cmake_module -- -j6 -l6
+[0.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ndt/ros2car-ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/vesc_msgs -- -j6 -l6
+[1.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ndt/ros2car-ws/build/asio_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/asio_cmake_module -- -j6 -l6
+[1.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ndt/ros2car-ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/ydlidar_ros2_driver -- -j6 -l6
+[1.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ndt/ros2car-ws/build/asio_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ndt/ros2car-ws/build/asio_cmake_module
+[1.456s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asio_cmake_module)
+[1.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ndt/ros2car-ws/build/asio_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ndt/ros2car-ws/build/asio_cmake_module
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/asio_cmake_module' for CMake module files
+[1.464s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/asio_cmake_module' for CMake config files
+[1.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('asio_cmake_module', 'cmake_prefix_path')
+[1.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/hook/cmake_prefix_path.ps1'
+[1.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/hook/cmake_prefix_path.dsv'
+[1.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/hook/cmake_prefix_path.sh'
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/asio_cmake_module/bin'
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/asio_cmake_module/lib/pkgconfig/asio_cmake_module.pc'
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/asio_cmake_module/lib/python3.10/site-packages'
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/asio_cmake_module/bin'
+[1.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/package.ps1'
+[1.472s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/package.dsv'
+[1.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/package.sh'
+[1.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/package.bash'
+[1.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/package.zsh'
+[1.475s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ndt/ros2car-ws/install/asio_cmake_module/share/colcon-core/packages/asio_cmake_module)
+[1.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ndt/ros2car-ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/ydlidar_ros2_driver -- -j6 -l6
+[1.543s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asio_cmake_module)
+[1.544s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/asio_cmake_module' for CMake module files
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/asio_cmake_module' for CMake config files
+[1.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('asio_cmake_module', 'cmake_prefix_path')
+[1.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/hook/cmake_prefix_path.ps1'
+[1.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/hook/cmake_prefix_path.dsv'
+[1.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/hook/cmake_prefix_path.sh'
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/asio_cmake_module/bin'
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/asio_cmake_module/lib/pkgconfig/asio_cmake_module.pc'
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/asio_cmake_module/lib/python3.10/site-packages'
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/asio_cmake_module/bin'
+[1.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/package.ps1'
+[1.554s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/package.dsv'
+[1.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/package.sh'
+[1.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/package.bash'
+[1.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/asio_cmake_module/share/asio_cmake_module/package.zsh'
+[1.557s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ndt/ros2car-ws/install/asio_cmake_module/share/colcon-core/packages/asio_cmake_module)
+[1.558s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ndt/ros2car-ws/src/transport_drivers/io_context' with build type 'ament_cmake'
+[1.558s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ndt/ros2car-ws/src/transport_drivers/io_context'
+[1.560s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.560s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ndt/ros2car-ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/vesc_msgs -- -j6 -l6
+[1.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ndt/ros2car-ws/build/io_context': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ros2car-ws/install/io_context:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/io_context -- -j6 -l6
+[1.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ndt/ros2car-ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ndt/ros2car-ws/build/ydlidar_ros2_driver
+[1.627s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[1.635s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver' for CMake module files
+[1.636s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver' for CMake config files
+[1.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[1.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[1.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ndt/ros2car-ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ndt/ros2car-ws/build/ydlidar_ros2_driver
+[1.640s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[1.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[1.642s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/lib'
+[1.642s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/bin'
+[1.642s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[1.642s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[1.642s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/bin'
+[1.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[1.645s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[1.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[1.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[1.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[1.647s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[1.753s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[1.756s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver' for CMake module files
+[1.757s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver' for CMake config files
+[1.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[1.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[1.760s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[1.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[1.761s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/lib'
+[1.761s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/bin'
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/bin'
+[1.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[1.764s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[1.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[1.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[1.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[1.767s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ndt/ros2car-ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[1.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ndt/ros2car-ws/build/io_context' returned '0': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ros2car-ws/install/io_context:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/io_context -- -j6 -l6
+[1.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ndt/ros2car-ws/src/ds4drv': PYTHONPATH=/home/ndt/ros2car-ws/build/ds4drv/prefix_override:/home/ndt/ros2car-ws/install/ds4drv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ds4drv build --build-base /home/ndt/ros2car-ws/build/ds4drv/build install --record /home/ndt/ros2car-ws/build/ds4drv/install.log --single-version-externally-managed
+[1.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ndt/ros2car-ws/build/io_context': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ros2car-ws/install/io_context:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble /usr/bin/cmake --install /home/ndt/ros2car-ws/build/io_context
+[1.938s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(io_context)
+[1.940s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/io_context' for CMake module files
+[1.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ndt/ros2car-ws/build/io_context' returned '0': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ros2car-ws/install/io_context:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble /usr/bin/cmake --install /home/ndt/ros2car-ws/build/io_context
+[1.941s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/io_context' for CMake config files
+[1.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('io_context', 'cmake_prefix_path')
+[1.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/io_context/share/io_context/hook/cmake_prefix_path.ps1'
+[1.943s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/io_context/share/io_context/hook/cmake_prefix_path.dsv'
+[1.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/io_context/share/io_context/hook/cmake_prefix_path.sh'
+[1.945s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/io_context/lib'
+[1.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('io_context', 'ld_library_path_lib')
+[1.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/io_context/share/io_context/hook/ld_library_path_lib.ps1'
+[1.947s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/io_context/share/io_context/hook/ld_library_path_lib.dsv'
+[1.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/io_context/share/io_context/hook/ld_library_path_lib.sh'
+[1.948s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/io_context/bin'
+[1.948s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/io_context/lib/pkgconfig/io_context.pc'
+[1.949s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/io_context/lib/python3.10/site-packages'
+[1.949s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/io_context/bin'
+[1.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/io_context/share/io_context/package.ps1'
+[1.952s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ndt/ros2car-ws/install/io_context/share/io_context/package.dsv'
+[1.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/io_context/share/io_context/package.sh'
+[1.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/io_context/share/io_context/package.bash'
+[1.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/io_context/share/io_context/package.zsh'
+[1.954s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ndt/ros2car-ws/install/io_context/share/colcon-core/packages/io_context)
+[2.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ndt/ros2car-ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ndt/ros2car-ws/build/vesc_msgs
+[2.062s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(io_context)
+[2.064s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/io_context' for CMake module files
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/io_context' for CMake config files
+[2.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('io_context', 'cmake_prefix_path')
+[2.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/io_context/share/io_context/hook/cmake_prefix_path.ps1'
+[2.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/io_context/share/io_context/hook/cmake_prefix_path.dsv'
+[2.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/io_context/share/io_context/hook/cmake_prefix_path.sh'
+[2.093s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/io_context/lib'
+[2.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('io_context', 'ld_library_path_lib')
+[2.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/io_context/share/io_context/hook/ld_library_path_lib.ps1'
+[2.105s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/io_context/share/io_context/hook/ld_library_path_lib.dsv'
+[2.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/io_context/share/io_context/hook/ld_library_path_lib.sh'
+[2.107s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/io_context/bin'
+[2.108s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/io_context/lib/pkgconfig/io_context.pc'
+[2.108s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/io_context/lib/python3.10/site-packages'
+[2.108s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/io_context/bin'
+[2.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/io_context/share/io_context/package.ps1'
+[2.110s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ndt/ros2car-ws/install/io_context/share/io_context/package.dsv'
+[2.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/io_context/share/io_context/package.sh'
+[2.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/io_context/share/io_context/package.bash'
+[2.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/io_context/share/io_context/package.zsh'
+[2.113s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ndt/ros2car-ws/install/io_context/share/colcon-core/packages/io_context)
+[2.116s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ndt/ros2car-ws/src/transport_drivers/serial_driver' with build type 'ament_cmake'
+[2.116s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ndt/ros2car-ws/src/transport_drivers/serial_driver'
+[2.118s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.120s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.134s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ndt/ros2car-ws/src/transport_drivers/udp_driver' with build type 'ament_cmake'
+[2.135s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ndt/ros2car-ws/src/transport_drivers/udp_driver'
+[2.137s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.137s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ndt/ros2car-ws/build/serial_driver': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/io_context/lib:/home/ndt/ros2car-ws/install/vesc_driver/lib:/home/ndt/ros2car-ws/install/vesc_ackermann/lib:/home/ndt/ros2car-ws/install/vesc_msgs/lib:/home/ndt/ros2car-ws/install/udp_driver/lib:/home/ndt/ros2car-ws/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ndt/ros2car-ws/build/serial_driver -- -j6 -l6
+[2.176s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_msgs)
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_msgs' for CMake module files
+[2.181s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_msgs' for CMake config files
+[2.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ndt/ros2car-ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ndt/ros2car-ws/build/vesc_msgs
+[2.183s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'cmake_prefix_path')
+[2.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.ps1'
+[2.187s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.dsv'
+[2.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.sh'
+[2.188s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_msgs/lib'
+[2.188s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'ld_library_path_lib')
+[2.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.ps1'
+[2.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.dsv'
+[2.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.sh'
+[2.192s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_msgs/bin'
+[2.192s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_msgs/lib/pkgconfig/vesc_msgs.pc'
+[2.192s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_msgs/lib/python3.10/site-packages'
+[2.193s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_msgs/bin'
+[2.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc_msgs/share/vesc_msgs/package.ps1'
+[2.195s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ndt/ros2car-ws/install/vesc_msgs/share/vesc_msgs/package.dsv'
+[2.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc_msgs/share/vesc_msgs/package.sh'
+[2.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc_msgs/share/vesc_msgs/package.bash'
+[2.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc_msgs/share/vesc_msgs/package.zsh'
+[2.198s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ndt/ros2car-ws/install/vesc_msgs/share/colcon-core/packages/vesc_msgs)
+[2.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ndt/ros2car-ws/build/udp_driver': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/io_context/lib:/home/ndt/ros2car-ws/install/vesc_driver/lib:/home/ndt/ros2car-ws/install/vesc_ackermann/lib:/home/ndt/ros2car-ws/install/vesc_msgs/lib:/home/ndt/ros2car-ws/install/udp_driver/lib:/home/ndt/ros2car-ws/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ndt/ros2car-ws/build/udp_driver -- -j6 -l6
+[2.318s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/ds4drv' for CMake module files
+[2.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ndt/ros2car-ws/src/ds4drv' returned '0': PYTHONPATH=/home/ndt/ros2car-ws/build/ds4drv/prefix_override:/home/ndt/ros2car-ws/install/ds4drv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ds4drv build --build-base /home/ndt/ros2car-ws/build/ds4drv/build install --record /home/ndt/ros2car-ws/build/ds4drv/install.log --single-version-externally-managed
+[2.320s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/ds4drv' for CMake config files
+[2.321s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/ds4drv/lib'
+[2.322s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/ds4drv/bin'
+[2.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('ds4drv', 'path')
+[2.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/ds4drv/share/ds4drv/hook/path.ps1'
+[2.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/ds4drv/share/ds4drv/hook/path.dsv'
+[2.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/ds4drv/share/ds4drv/hook/path.sh'
+[2.326s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/ds4drv/lib/pkgconfig/ds4drv.pc'
+[2.328s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/ds4drv/lib/python3.10/site-packages'
+[2.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('ds4drv', 'pythonpath')
+[2.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/ds4drv/share/ds4drv/hook/pythonpath.ps1'
+[2.331s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/ds4drv/share/ds4drv/hook/pythonpath.dsv'
+[2.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/ds4drv/share/ds4drv/hook/pythonpath.sh'
+[2.332s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/ds4drv/bin'
+[2.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('ds4drv', 'pythonscriptspath')
+[2.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/ds4drv/share/ds4drv/hook/pythonscriptspath.ps1'
+[2.335s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/ds4drv/share/ds4drv/hook/pythonscriptspath.dsv'
+[2.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/ds4drv/share/ds4drv/hook/pythonscriptspath.sh'
+[2.336s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ds4drv)
+[2.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/ds4drv/share/ds4drv/package.ps1'
+[2.338s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ndt/ros2car-ws/install/ds4drv/share/ds4drv/package.dsv'
+[2.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/ds4drv/share/ds4drv/package.sh'
+[2.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/ds4drv/share/ds4drv/package.bash'
+[2.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/ds4drv/share/ds4drv/package.zsh'
+[2.341s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ndt/ros2car-ws/install/ds4drv/share/colcon-core/packages/ds4drv)
+[2.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ndt/ros2car-ws/build/serial_driver' returned '0': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/io_context/lib:/home/ndt/ros2car-ws/install/vesc_driver/lib:/home/ndt/ros2car-ws/install/vesc_ackermann/lib:/home/ndt/ros2car-ws/install/vesc_msgs/lib:/home/ndt/ros2car-ws/install/udp_driver/lib:/home/ndt/ros2car-ws/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ndt/ros2car-ws/build/serial_driver -- -j6 -l6
+[2.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ndt/ros2car-ws/build/udp_driver' returned '0': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/io_context/lib:/home/ndt/ros2car-ws/install/vesc_driver/lib:/home/ndt/ros2car-ws/install/vesc_ackermann/lib:/home/ndt/ros2car-ws/install/vesc_msgs/lib:/home/ndt/ros2car-ws/install/udp_driver/lib:/home/ndt/ros2car-ws/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ndt/ros2car-ws/build/udp_driver -- -j6 -l6
+[2.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ndt/ros2car-ws/build/serial_driver': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/io_context/lib:/home/ndt/ros2car-ws/install/vesc_driver/lib:/home/ndt/ros2car-ws/install/vesc_ackermann/lib:/home/ndt/ros2car-ws/install/vesc_msgs/lib:/home/ndt/ros2car-ws/install/udp_driver/lib:/home/ndt/ros2car-ws/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ndt/ros2car-ws/build/serial_driver
+[2.667s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_driver)
+[2.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ndt/ros2car-ws/build/serial_driver' returned '0': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/io_context/lib:/home/ndt/ros2car-ws/install/vesc_driver/lib:/home/ndt/ros2car-ws/install/vesc_ackermann/lib:/home/ndt/ros2car-ws/install/vesc_msgs/lib:/home/ndt/ros2car-ws/install/udp_driver/lib:/home/ndt/ros2car-ws/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ndt/ros2car-ws/build/serial_driver
+[2.670s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/serial_driver' for CMake module files
+[2.670s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/serial_driver' for CMake config files
+[2.671s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_driver', 'cmake_prefix_path')
+[2.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/serial_driver/share/serial_driver/hook/cmake_prefix_path.ps1'
+[2.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/serial_driver/share/serial_driver/hook/cmake_prefix_path.dsv'
+[2.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/serial_driver/share/serial_driver/hook/cmake_prefix_path.sh'
+[2.674s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/serial_driver/lib'
+[2.674s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_driver', 'ld_library_path_lib')
+[2.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/serial_driver/share/serial_driver/hook/ld_library_path_lib.ps1'
+[2.676s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/serial_driver/share/serial_driver/hook/ld_library_path_lib.dsv'
+[2.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/serial_driver/share/serial_driver/hook/ld_library_path_lib.sh'
+[2.677s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/serial_driver/bin'
+[2.677s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/serial_driver/lib/pkgconfig/serial_driver.pc'
+[2.678s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/serial_driver/lib/python3.10/site-packages'
+[2.678s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/serial_driver/bin'
+[2.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/serial_driver/share/serial_driver/package.ps1'
+[2.680s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ndt/ros2car-ws/install/serial_driver/share/serial_driver/package.dsv'
+[2.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/serial_driver/share/serial_driver/package.sh'
+[2.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/serial_driver/share/serial_driver/package.bash'
+[2.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/serial_driver/share/serial_driver/package.zsh'
+[2.682s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ndt/ros2car-ws/install/serial_driver/share/colcon-core/packages/serial_driver)
+[2.769s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_msgs)
+[2.771s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_msgs' for CMake module files
+[2.772s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_msgs' for CMake config files
+[2.773s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'cmake_prefix_path')
+[2.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.ps1'
+[2.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.dsv'
+[2.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.sh'
+[2.776s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_msgs/lib'
+[2.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'ld_library_path_lib')
+[2.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.ps1'
+[2.779s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.dsv'
+[2.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.sh'
+[2.780s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_msgs/bin'
+[2.780s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_msgs/lib/pkgconfig/vesc_msgs.pc'
+[2.780s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_msgs/lib/python3.10/site-packages'
+[2.780s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_msgs/bin'
+[2.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc_msgs/share/vesc_msgs/package.ps1'
+[2.782s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ndt/ros2car-ws/install/vesc_msgs/share/vesc_msgs/package.dsv'
+[2.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc_msgs/share/vesc_msgs/package.sh'
+[2.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc_msgs/share/vesc_msgs/package.bash'
+[2.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc_msgs/share/vesc_msgs/package.zsh'
+[2.786s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ndt/ros2car-ws/install/vesc_msgs/share/colcon-core/packages/vesc_msgs)
+[2.786s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ndt/ros2car-ws/src/vesc/vesc_ackermann' with build type 'ament_cmake'
+[2.787s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ndt/ros2car-ws/src/vesc/vesc_ackermann'
+[2.788s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.788s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ndt/ros2car-ws/build/udp_driver': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/io_context/lib:/home/ndt/ros2car-ws/install/vesc_driver/lib:/home/ndt/ros2car-ws/install/vesc_ackermann/lib:/home/ndt/ros2car-ws/install/vesc_msgs/lib:/home/ndt/ros2car-ws/install/udp_driver/lib:/home/ndt/ros2car-ws/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ndt/ros2car-ws/build/udp_driver
+[2.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ndt/ros2car-ws/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/vesc_msgs/lib:/home/ndt/ros2car-ws/install/vesc_driver/lib:/home/ndt/ros2car-ws/install/vesc_ackermann/lib:/home/ndt/ros2car-ws/install/udp_driver/lib:/home/ndt/ros2car-ws/install/serial_driver/lib:/home/ndt/ros2car-ws/install/io_context/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ndt/ros2car-ws/build/vesc_ackermann -- -j6 -l6
+[2.836s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(udp_driver)
+[2.838s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/udp_driver' for CMake module files
+[2.840s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/udp_driver' for CMake config files
+[2.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ndt/ros2car-ws/build/udp_driver' returned '0': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/io_context/lib:/home/ndt/ros2car-ws/install/vesc_driver/lib:/home/ndt/ros2car-ws/install/vesc_ackermann/lib:/home/ndt/ros2car-ws/install/vesc_msgs/lib:/home/ndt/ros2car-ws/install/udp_driver/lib:/home/ndt/ros2car-ws/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ndt/ros2car-ws/build/udp_driver
+[2.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('udp_driver', 'cmake_prefix_path')
+[2.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/hook/cmake_prefix_path.ps1'
+[2.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/hook/cmake_prefix_path.dsv'
+[2.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/hook/cmake_prefix_path.sh'
+[2.849s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/udp_driver/lib'
+[2.849s] Level 1:colcon.colcon_core.shell:create_environment_hook('udp_driver', 'ld_library_path_lib')
+[2.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/hook/ld_library_path_lib.ps1'
+[2.851s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/hook/ld_library_path_lib.dsv'
+[2.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/hook/ld_library_path_lib.sh'
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/udp_driver/bin'
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/udp_driver/lib/pkgconfig/udp_driver.pc'
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/udp_driver/lib/python3.10/site-packages'
+[2.853s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/udp_driver/bin'
+[2.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/package.ps1'
+[2.855s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/package.dsv'
+[2.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/package.sh'
+[2.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/package.bash'
+[2.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/package.zsh'
+[2.857s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ndt/ros2car-ws/install/udp_driver/share/colcon-core/packages/udp_driver)
+[2.861s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_driver)
+[2.863s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/serial_driver' for CMake module files
+[2.864s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/serial_driver' for CMake config files
+[2.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_driver', 'cmake_prefix_path')
+[2.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/serial_driver/share/serial_driver/hook/cmake_prefix_path.ps1'
+[2.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/serial_driver/share/serial_driver/hook/cmake_prefix_path.dsv'
+[2.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/serial_driver/share/serial_driver/hook/cmake_prefix_path.sh'
+[2.868s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/serial_driver/lib'
+[2.868s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_driver', 'ld_library_path_lib')
+[2.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/serial_driver/share/serial_driver/hook/ld_library_path_lib.ps1'
+[2.869s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/serial_driver/share/serial_driver/hook/ld_library_path_lib.dsv'
+[2.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/serial_driver/share/serial_driver/hook/ld_library_path_lib.sh'
+[2.870s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/serial_driver/bin'
+[2.871s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/serial_driver/lib/pkgconfig/serial_driver.pc'
+[2.871s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/serial_driver/lib/python3.10/site-packages'
+[2.871s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/serial_driver/bin'
+[2.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/serial_driver/share/serial_driver/package.ps1'
+[2.873s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ndt/ros2car-ws/install/serial_driver/share/serial_driver/package.dsv'
+[2.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/serial_driver/share/serial_driver/package.sh'
+[2.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/serial_driver/share/serial_driver/package.bash'
+[2.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/serial_driver/share/serial_driver/package.zsh'
+[2.876s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ndt/ros2car-ws/install/serial_driver/share/colcon-core/packages/serial_driver)
+[2.876s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ndt/ros2car-ws/src/vesc/vesc_driver' with build type 'ament_cmake'
+[2.877s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ndt/ros2car-ws/src/vesc/vesc_driver'
+[2.878s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.878s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ndt/ros2car-ws/build/vesc_driver': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/serial_driver/lib:/home/ndt/ros2car-ws/install/io_context/lib:/home/ndt/ros2car-ws/install/vesc_msgs/lib:/home/ndt/ros2car-ws/install/vesc_driver/lib:/home/ndt/ros2car-ws/install/vesc_ackermann/lib:/home/ndt/ros2car-ws/install/udp_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ndt/ros2car-ws/build/vesc_driver -- -j6 -l6
+[2.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ndt/ros2car-ws/build/vesc_ackermann' returned '0': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/vesc_msgs/lib:/home/ndt/ros2car-ws/install/vesc_driver/lib:/home/ndt/ros2car-ws/install/vesc_ackermann/lib:/home/ndt/ros2car-ws/install/udp_driver/lib:/home/ndt/ros2car-ws/install/serial_driver/lib:/home/ndt/ros2car-ws/install/io_context/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ndt/ros2car-ws/build/vesc_ackermann -- -j6 -l6
+[3.092s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(udp_driver)
+[3.094s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/udp_driver' for CMake module files
+[3.095s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/udp_driver' for CMake config files
+[3.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('udp_driver', 'cmake_prefix_path')
+[3.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/hook/cmake_prefix_path.ps1'
+[3.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/hook/cmake_prefix_path.dsv'
+[3.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/hook/cmake_prefix_path.sh'
+[3.100s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/udp_driver/lib'
+[3.100s] Level 1:colcon.colcon_core.shell:create_environment_hook('udp_driver', 'ld_library_path_lib')
+[3.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/hook/ld_library_path_lib.ps1'
+[3.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/hook/ld_library_path_lib.dsv'
+[3.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/hook/ld_library_path_lib.sh'
+[3.103s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/udp_driver/bin'
+[3.103s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/udp_driver/lib/pkgconfig/udp_driver.pc'
+[3.104s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/udp_driver/lib/python3.10/site-packages'
+[3.104s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/udp_driver/bin'
+[3.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/package.ps1'
+[3.106s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/package.dsv'
+[3.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/package.sh'
+[3.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/package.bash'
+[3.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/udp_driver/share/udp_driver/package.zsh'
+[3.109s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ndt/ros2car-ws/install/udp_driver/share/colcon-core/packages/udp_driver)
+[3.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ndt/ros2car-ws/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/vesc_msgs/lib:/home/ndt/ros2car-ws/install/vesc_driver/lib:/home/ndt/ros2car-ws/install/vesc_ackermann/lib:/home/ndt/ros2car-ws/install/udp_driver/lib:/home/ndt/ros2car-ws/install/serial_driver/lib:/home/ndt/ros2car-ws/install/io_context/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ndt/ros2car-ws/build/vesc_ackermann
+[3.147s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_ackermann)
+[3.149s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_ackermann' for CMake module files
+[3.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ndt/ros2car-ws/build/vesc_ackermann' returned '0': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/vesc_msgs/lib:/home/ndt/ros2car-ws/install/vesc_driver/lib:/home/ndt/ros2car-ws/install/vesc_ackermann/lib:/home/ndt/ros2car-ws/install/udp_driver/lib:/home/ndt/ros2car-ws/install/serial_driver/lib:/home/ndt/ros2car-ws/install/io_context/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ndt/ros2car-ws/build/vesc_ackermann
+[3.152s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_ackermann' for CMake config files
+[3.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_ackermann', 'cmake_prefix_path')
+[3.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.ps1'
+[3.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.dsv'
+[3.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.sh'
+[3.156s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_ackermann/lib'
+[3.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_ackermann', 'ld_library_path_lib')
+[3.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.ps1'
+[3.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.dsv'
+[3.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.sh'
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_ackermann/bin'
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_ackermann/lib/pkgconfig/vesc_ackermann.pc'
+[3.160s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_ackermann/lib/python3.10/site-packages'
+[3.160s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_ackermann/bin'
+[3.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc_ackermann/share/vesc_ackermann/package.ps1'
+[3.162s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ndt/ros2car-ws/install/vesc_ackermann/share/vesc_ackermann/package.dsv'
+[3.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc_ackermann/share/vesc_ackermann/package.sh'
+[3.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc_ackermann/share/vesc_ackermann/package.bash'
+[3.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc_ackermann/share/vesc_ackermann/package.zsh'
+[3.164s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ndt/ros2car-ws/install/vesc_ackermann/share/colcon-core/packages/vesc_ackermann)
+[3.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ndt/ros2car-ws/build/vesc_driver' returned '0': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/serial_driver/lib:/home/ndt/ros2car-ws/install/io_context/lib:/home/ndt/ros2car-ws/install/vesc_msgs/lib:/home/ndt/ros2car-ws/install/vesc_driver/lib:/home/ndt/ros2car-ws/install/vesc_ackermann/lib:/home/ndt/ros2car-ws/install/udp_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ndt/ros2car-ws/build/vesc_driver -- -j6 -l6
+[3.277s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_ackermann)
+[3.279s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_ackermann' for CMake module files
+[3.280s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_ackermann' for CMake config files
+[3.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_ackermann', 'cmake_prefix_path')
+[3.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.ps1'
+[3.282s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.dsv'
+[3.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.sh'
+[3.283s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_ackermann/lib'
+[3.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_ackermann', 'ld_library_path_lib')
+[3.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.ps1'
+[3.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.dsv'
+[3.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.sh'
+[3.286s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_ackermann/bin'
+[3.286s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_ackermann/lib/pkgconfig/vesc_ackermann.pc'
+[3.286s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_ackermann/lib/python3.10/site-packages'
+[3.286s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_ackermann/bin'
+[3.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc_ackermann/share/vesc_ackermann/package.ps1'
+[3.288s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ndt/ros2car-ws/install/vesc_ackermann/share/vesc_ackermann/package.dsv'
+[3.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc_ackermann/share/vesc_ackermann/package.sh'
+[3.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc_ackermann/share/vesc_ackermann/package.bash'
+[3.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc_ackermann/share/vesc_ackermann/package.zsh'
+[3.291s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ndt/ros2car-ws/install/vesc_ackermann/share/colcon-core/packages/vesc_ackermann)
+[3.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ndt/ros2car-ws/build/vesc_driver': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/serial_driver/lib:/home/ndt/ros2car-ws/install/io_context/lib:/home/ndt/ros2car-ws/install/vesc_msgs/lib:/home/ndt/ros2car-ws/install/vesc_driver/lib:/home/ndt/ros2car-ws/install/vesc_ackermann/lib:/home/ndt/ros2car-ws/install/udp_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ndt/ros2car-ws/build/vesc_driver
+[3.331s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_driver)
+[3.333s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_driver' for CMake module files
+[3.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ndt/ros2car-ws/build/vesc_driver' returned '0': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/serial_driver/lib:/home/ndt/ros2car-ws/install/io_context/lib:/home/ndt/ros2car-ws/install/vesc_msgs/lib:/home/ndt/ros2car-ws/install/vesc_driver/lib:/home/ndt/ros2car-ws/install/vesc_ackermann/lib:/home/ndt/ros2car-ws/install/udp_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ndt/ros2car-ws/build/vesc_driver
+[3.336s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_driver' for CMake config files
+[3.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'cmake_prefix_path')
+[3.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.ps1'
+[3.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.dsv'
+[3.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.sh'
+[3.340s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_driver/lib'
+[3.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'ld_library_path_lib')
+[3.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.ps1'
+[3.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.dsv'
+[3.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.sh'
+[3.343s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_driver/bin'
+[3.343s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_driver/lib/pkgconfig/vesc_driver.pc'
+[3.343s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_driver/lib/python3.10/site-packages'
+[3.343s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_driver/bin'
+[3.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc_driver/share/vesc_driver/package.ps1'
+[3.345s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ndt/ros2car-ws/install/vesc_driver/share/vesc_driver/package.dsv'
+[3.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc_driver/share/vesc_driver/package.sh'
+[3.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc_driver/share/vesc_driver/package.bash'
+[3.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc_driver/share/vesc_driver/package.zsh'
+[3.348s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ndt/ros2car-ws/install/vesc_driver/share/colcon-core/packages/vesc_driver)
+[3.486s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_driver)
+[3.488s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_driver' for CMake module files
+[3.489s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_driver' for CMake config files
+[3.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'cmake_prefix_path')
+[3.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.ps1'
+[3.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.dsv'
+[3.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.sh'
+[3.493s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_driver/lib'
+[3.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'ld_library_path_lib')
+[3.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.ps1'
+[3.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.dsv'
+[3.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.sh'
+[3.496s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_driver/bin'
+[3.496s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_driver/lib/pkgconfig/vesc_driver.pc'
+[3.496s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_driver/lib/python3.10/site-packages'
+[3.496s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc_driver/bin'
+[3.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc_driver/share/vesc_driver/package.ps1'
+[3.498s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ndt/ros2car-ws/install/vesc_driver/share/vesc_driver/package.dsv'
+[3.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc_driver/share/vesc_driver/package.sh'
+[3.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc_driver/share/vesc_driver/package.bash'
+[3.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc_driver/share/vesc_driver/package.zsh'
+[3.501s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ndt/ros2car-ws/install/vesc_driver/share/colcon-core/packages/vesc_driver)
+[3.502s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ndt/ros2car-ws/src/vesc/vesc' with build type 'ament_cmake'
+[3.502s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ndt/ros2car-ws/src/vesc/vesc'
+[3.503s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.503s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ndt/ros2car-ws/build/vesc': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/vesc_driver/lib:/home/ndt/ros2car-ws/install/serial_driver/lib:/home/ndt/ros2car-ws/install/vesc_ackermann/lib:/home/ndt/ros2car-ws/install/io_context/lib:/home/ndt/ros2car-ws/install/vesc_msgs/lib:/home/ndt/ros2car-ws/install/udp_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ndt/ros2car-ws/build/vesc -- -j6 -l6
+[3.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ndt/ros2car-ws/build/vesc' returned '0': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/vesc_driver/lib:/home/ndt/ros2car-ws/install/serial_driver/lib:/home/ndt/ros2car-ws/install/vesc_ackermann/lib:/home/ndt/ros2car-ws/install/io_context/lib:/home/ndt/ros2car-ws/install/vesc_msgs/lib:/home/ndt/ros2car-ws/install/udp_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ndt/ros2car-ws/build/vesc -- -j6 -l6
+[3.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ndt/ros2car-ws/build/vesc': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/vesc_driver/lib:/home/ndt/ros2car-ws/install/serial_driver/lib:/home/ndt/ros2car-ws/install/vesc_ackermann/lib:/home/ndt/ros2car-ws/install/io_context/lib:/home/ndt/ros2car-ws/install/vesc_msgs/lib:/home/ndt/ros2car-ws/install/udp_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ndt/ros2car-ws/build/vesc
+[3.703s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc)
+[3.705s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc' for CMake module files
+[3.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ndt/ros2car-ws/build/vesc' returned '0': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/ndt/ros2car-ws/install/vesc_driver/lib:/home/ndt/ros2car-ws/install/serial_driver/lib:/home/ndt/ros2car-ws/install/vesc_ackermann/lib:/home/ndt/ros2car-ws/install/io_context/lib:/home/ndt/ros2car-ws/install/vesc_msgs/lib:/home/ndt/ros2car-ws/install/udp_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ndt/ros2car-ws/build/vesc
+[3.707s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc' for CMake config files
+[3.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc', 'cmake_prefix_path')
+[3.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc/share/vesc/hook/cmake_prefix_path.ps1'
+[3.709s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/vesc/share/vesc/hook/cmake_prefix_path.dsv'
+[3.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc/share/vesc/hook/cmake_prefix_path.sh'
+[3.710s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc/bin'
+[3.710s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc/lib/pkgconfig/vesc.pc'
+[3.710s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc/lib/python3.10/site-packages'
+[3.711s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc/bin'
+[3.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc/share/vesc/package.ps1'
+[3.712s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ndt/ros2car-ws/install/vesc/share/vesc/package.dsv'
+[3.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc/share/vesc/package.sh'
+[3.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc/share/vesc/package.bash'
+[3.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc/share/vesc/package.zsh'
+[3.715s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ndt/ros2car-ws/install/vesc/share/colcon-core/packages/vesc)
+[3.778s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc)
+[3.780s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc' for CMake module files
+[3.781s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc' for CMake config files
+[3.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc', 'cmake_prefix_path')
+[3.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc/share/vesc/hook/cmake_prefix_path.ps1'
+[3.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndt/ros2car-ws/install/vesc/share/vesc/hook/cmake_prefix_path.dsv'
+[3.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndt/ros2car-ws/install/vesc/share/vesc/hook/cmake_prefix_path.sh'
+[3.784s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc/bin'
+[3.784s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc/lib/pkgconfig/vesc.pc'
+[3.784s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc/lib/python3.10/site-packages'
+[3.785s] Level 1:colcon.colcon_core.environment:checking '/home/ndt/ros2car-ws/install/vesc/bin'
+[3.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc/share/vesc/package.ps1'
+[3.787s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ndt/ros2car-ws/install/vesc/share/vesc/package.dsv'
+[3.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc/share/vesc/package.sh'
+[3.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc/share/vesc/package.bash'
+[3.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndt/ros2car-ws/install/vesc/share/vesc/package.zsh'
+[3.789s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ndt/ros2car-ws/install/vesc/share/colcon-core/packages/vesc)
+[3.790s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.790s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.790s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.790s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.799s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.799s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.799s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.812s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.813s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ndt/ros2car-ws/install/local_setup.ps1'
+[3.814s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ndt/ros2car-ws/install/_local_setup_util_ps1.py'
+[3.816s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ndt/ros2car-ws/install/setup.ps1'
+[3.818s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ndt/ros2car-ws/install/local_setup.sh'
+[3.819s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ndt/ros2car-ws/install/_local_setup_util_sh.py'
+[3.820s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ndt/ros2car-ws/install/setup.sh'
+[3.823s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ndt/ros2car-ws/install/local_setup.bash'
+[3.823s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ndt/ros2car-ws/install/setup.bash'
+[3.826s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ndt/ros2car-ws/install/local_setup.zsh'
+[3.826s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ndt/ros2car-ws/install/setup.zsh'

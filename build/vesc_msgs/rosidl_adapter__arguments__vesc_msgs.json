@@ -1,0 +1,9 @@
+{
+  "package_name": "vesc_msgs",
+  "non_idl_tuples": [
+    "/home/ndt/ros2car-ws/src/vesc/vesc_msgs:msg/VescState.msg",
+    "/home/ndt/ros2car-ws/src/vesc/vesc_msgs:msg/VescStateStamped.msg",
+    "/home/ndt/ros2car-ws/src/vesc/vesc_msgs:msg/VescImu.msg",
+    "/home/ndt/ros2car-ws/src/vesc/vesc_msgs:msg/VescImuStamped.msg"
+  ]
+}

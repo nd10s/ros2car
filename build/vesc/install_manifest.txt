@@ -1,0 +1,15 @@
+/home/ndt/ros2car-ws/install/vesc/share/ament_index/resource_index/package_run_dependencies/vesc
+/home/ndt/ros2car-ws/install/vesc/share/ament_index/resource_index/parent_prefix_path/vesc
+/home/ndt/ros2car-ws/install/vesc/share/vesc/environment/ament_prefix_path.sh
+/home/ndt/ros2car-ws/install/vesc/share/vesc/environment/ament_prefix_path.dsv
+/home/ndt/ros2car-ws/install/vesc/share/vesc/environment/path.sh
+/home/ndt/ros2car-ws/install/vesc/share/vesc/environment/path.dsv
+/home/ndt/ros2car-ws/install/vesc/share/vesc/local_setup.bash
+/home/ndt/ros2car-ws/install/vesc/share/vesc/local_setup.sh
+/home/ndt/ros2car-ws/install/vesc/share/vesc/local_setup.zsh
+/home/ndt/ros2car-ws/install/vesc/share/vesc/local_setup.dsv
+/home/ndt/ros2car-ws/install/vesc/share/vesc/package.dsv
+/home/ndt/ros2car-ws/install/vesc/share/ament_index/resource_index/packages/vesc
+/home/ndt/ros2car-ws/install/vesc/share/vesc/cmake/vescConfig.cmake
+/home/ndt/ros2car-ws/install/vesc/share/vesc/cmake/vescConfig-version.cmake
+/home/ndt/ros2car-ws/install/vesc/share/vesc/package.xml

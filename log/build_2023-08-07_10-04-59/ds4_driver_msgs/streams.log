@@ -1,0 +1,59 @@
+[0.047s] Invoking command in '/home/ndt/ros2car-ws/build/ds4_driver_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ndt/ros2car-ws/install/drive_with_DS4:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/ds4_driver_msgs -- -j6 -l6
+[1.173s] [ 10%] Built target ds4_driver_msgs__rosidl_generator_c
+[1.173s] [ 12%] Built target ds4_driver_msgs__cpp
+[1.173s] [35m[1mConsolidate compiler generated dependencies of target ds4_driver_msgs__rosidl_typesupport_introspection_c[0m
+[1.173s] [ 12%] Built target ament_cmake_python_symlink_ds4_driver_msgs
+[1.173s] [35m[1mConsolidate compiler generated dependencies of target ds4_driver_msgs__rosidl_typesupport_fastrtps_c[0m
+[1.173s] [35m[1mConsolidate compiler generated dependencies of target ds4_driver_msgs__rosidl_typesupport_c[0m
+[1.173s] [35m[1mConsolidate compiler generated dependencies of target ds4_driver_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.173s] [35m[1mConsolidate compiler generated dependencies of target ds4_driver_msgs__rosidl_typesupport_cpp[0m
+[1.173s] [ 14%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ds4_driver_msgs/msg/detail/feedback__type_support_c.cpp.o[0m
+[1.173s] [ 16%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ds4_driver_msgs/msg/detail/feedback__type_support.cpp.o[0m
+[1.174s] [ 18%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ds4_driver_msgs/msg/detail/status__type_support_c.cpp.o[0m
+[1.174s] [ 29%] Built target ds4_driver_msgs__rosidl_typesupport_introspection_c
+[1.174s] [ 40%] Built target ds4_driver_msgs__rosidl_typesupport_c
+[1.174s] [ 50%] Built target ds4_driver_msgs__rosidl_typesupport_cpp
+[1.174s] [35m[1mConsolidate compiler generated dependencies of target ds4_driver_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.174s] [ 52%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ds4_driver_msgs/msg/detail/report__type_support_c.cpp.o[0m
+[1.174s] [ 54%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ds4_driver_msgs/msg/detail/dds_fastrtps/feedback__type_support.cpp.o[0m
+[1.174s] [ 56%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ds4_driver_msgs/msg/detail/trackpad__type_support_c.cpp.o[0m
+[1.174s] [ 58%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ds4_driver_msgs/msg/detail/dds_fastrtps/status__type_support.cpp.o[0m
+[1.174s] running egg_info
+[1.174s] writing ds4_driver_msgs.egg-info/PKG-INFO
+[1.174s] writing dependency_links to ds4_driver_msgs.egg-info/dependency_links.txt
+[1.174s] writing top-level names to ds4_driver_msgs.egg-info/top_level.txt
+[1.174s] reading manifest file 'ds4_driver_msgs.egg-info/SOURCES.txt'
+[1.174s] writing manifest file 'ds4_driver_msgs.egg-info/SOURCES.txt'
+[1.175s] [ 60%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ds4_driver_msgs/msg/detail/dds_fastrtps/report__type_support.cpp.o[0m
+[1.175s] [ 60%] Built target ament_cmake_python_build_ds4_driver_msgs_egg
+[1.175s] [ 61%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ds4_driver_msgs/msg/detail/dds_fastrtps/trackpad__type_support.cpp.o[0m
+[1.204s] [ 63%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ds4_driver_msgs/msg/detail/status__type_support.cpp.o[0m
+[1.485s] [ 65%] [32m[1mLinking CXX shared library libds4_driver_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[1.589s] [ 67%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ds4_driver_msgs/msg/detail/report__type_support.cpp.o[0m
+[1.675s] [ 69%] Built target ds4_driver_msgs__rosidl_typesupport_fastrtps_c
+[1.705s] [ 70%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ds4_driver_msgs/msg/detail/trackpad__type_support.cpp.o[0m
+[2.109s] [ 72%] [32m[1mLinking CXX shared library libds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.216s] [ 74%] Built target ds4_driver_msgs__rosidl_typesupport_fastrtps_cpp
+[2.304s] [ 76%] [32m[1mLinking CXX shared library libds4_driver_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.379s] [ 78%] Built target ds4_driver_msgs__rosidl_typesupport_introspection_cpp
+[2.403s] [ 78%] Built target ds4_driver_msgs
+[2.428s] [ 80%] Built target ds4_driver_msgs__py
+[2.441s] [35m[1mConsolidate compiler generated dependencies of target ds4_driver_msgs__rosidl_generator_py[0m
+[2.460s] [ 85%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_py.dir/rosidl_generator_py/ds4_driver_msgs/msg/_feedback_s.c.o[0m
+[2.460s] [ 85%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_py.dir/rosidl_generator_py/ds4_driver_msgs/msg/_report_s.c.o[0m
+[2.461s] [ 87%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_py.dir/rosidl_generator_py/ds4_driver_msgs/msg/_status_s.c.o[0m
+[2.461s] [ 87%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_generator_py.dir/rosidl_generator_py/ds4_driver_msgs/msg/_trackpad_s.c.o[0m
+[2.594s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/ds4_driver_msgs/libds4_driver_msgs__rosidl_generator_py.so[0m
+[2.639s] [ 89%] Built target ds4_driver_msgs__rosidl_generator_py
+[2.653s] [35m[1mConsolidate compiler generated dependencies of target ds4_driver_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.653s] [35m[1mConsolidate compiler generated dependencies of target ds4_driver_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[2.653s] [35m[1mConsolidate compiler generated dependencies of target ds4_driver_msgs__rosidl_typesupport_c__pyext[0m
+[2.670s] [ 90%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.670s] [ 94%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.670s] [ 94%] [32mBuilding C object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.778s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.779s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.784s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.827s] [100%] Built target ds4_driver_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.830s] [100%] Built target ds4_driver_msgs__rosidl_typesupport_c__pyext
+[2.836s] [100%] Built target ds4_driver_msgs__rosidl_typesupport_introspection_c__pyext

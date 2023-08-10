@@ -1,0 +1,18 @@
+[0.047s] Invoking command in '/home/ndt/ros2car-ws/build/io_context': CMAKE_PREFIX_PATH=/home/ndt/ros2car-ws/install/asio_cmake_module:/home/ndt/ros2car-ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/vesc:/home/ndt/ros2car-ws/install/vesc_driver:/home/ndt/ros2car-ws/install/vesc_ackermann:/home/ndt/ros2car-ws/install/vesc_msgs:/home/ndt/ros2car-ws/install/udp_driver:/home/ndt/ros2car-ws/install/serial_driver:/home/ndt/ros2car-ws/install/io_context:/home/ndt/ros2car-ws/install/ds4_driver:/home/ndt/ros2car-ws/install/ds4_driver_msgs:/home/ndt/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/ndt/ros2car-ws/install/drive_with_DS4:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/io_context -- -j6 -l6
+[0.173s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.196s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.199s] [35m[1mConsolidate compiler generated dependencies of target io_context[0m
+[0.246s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.317s] [ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.318s] [ 33%] [32mBuilding CXX object CMakeFiles/io_context.dir/src/msg_converters/std_msgs.cpp.o[0m
+[0.335s] [ 44%] [32mBuilding CXX object CMakeFiles/io_context.dir/src/io_context.cpp.o[0m
+[1.497s] [ 55%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.640s] [ 55%] Built target gtest_main
+[3.365s] [ 66%] [32m[1mLinking CXX shared library libio_context.so[0m
+[3.567s] [ 66%] Built target io_context
+[4.754s] [ 77%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.825s] [ 77%] Built target gtest
+[4.843s] [35m[1mConsolidate compiler generated dependencies of target test_io_context[0m
+[4.865s] [ 88%] [32mBuilding CXX object CMakeFiles/test_io_context.dir/test/test_io_context.cpp.o[0m
+[7.500s] [100%] [32m[1mLinking CXX executable test_io_context[0m
+[7.703s] [100%] Built target test_io_context

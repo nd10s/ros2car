@@ -1,0 +1,17 @@
+[0.047s] Invoking command in '/home/ndt/ros2car-ws/build/ds4_driver_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ndt/ros2car-ws/install/drive_with_DS4:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/ds4_driver_msgs -- -j6 -l6
+[1.075s] [35m[1mConsolidate compiler generated dependencies of target ds4_driver_msgs__rosidl_generator_c[0m
+[1.075s] [  1%] Built target ds4_driver_msgs__cpp
+[1.076s] [ 12%] Built target ds4_driver_msgs__rosidl_generator_c
+[1.076s] [35m[1mConsolidate compiler generated dependencies of target ds4_driver_msgs__rosidl_typesupport_cpp[0m
+[1.077s] [ 14%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ds4_driver_msgs/msg/feedback__type_support.cpp.o[0m
+[1.077s] [ 16%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ds4_driver_msgs/msg/status__type_support.cpp.o[0m
+[1.079s] [ 18%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ds4_driver_msgs/msg/trackpad__type_support.cpp.o[0m
+[1.081s] [ 20%] [32mBuilding CXX object CMakeFiles/ds4_driver_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ds4_driver_msgs/msg/report__type_support.cpp.o[0m
+[1.083s] [ 21%] [32m[1mLinking CXX shared library libds4_driver_msgs__rosidl_typesupport_cpp.so[0m
+[1.084s] [ 23%] Built target ds4_driver_msgs__rosidl_typesupport_cpp
+[1.087s] failed to create symbolic link '/home/ndt/ros2car-ws/build/ds4_driver_msgs/ament_cmake_python/ds4_driver_msgs/ds4_driver_msgs' because existing path cannot be removed: Is a directory
+[1.087s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_ds4_driver_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_ds4_driver_msgs] Error 1
+[1.089s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_ds4_driver_msgs.dir/all] Error 2
+[1.089s] gmake[1]: *** Waiting for unfinished jobs....
+[1.089s] gmake: *** [Makefile:146: all] Error 2
+[1.113s] Invoked command in '/home/ndt/ros2car-ws/build/ds4_driver_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ndt/ros2car-ws/install/drive_with_DS4:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/ds4_driver_msgs -- -j6 -l6

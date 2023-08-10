@@ -1,0 +1,39 @@
+[0.634s] Invoking command in '/home/ndt/ros2car-ws/build/drive_with_DS4': PYTHONPATH=/home/ndt/ros2car-ws/build/drive_with_DS4/prefix_override:/home/ndt/ros2car-ws/install/drive_with_DS4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ndt/ros2car-ws/build/drive_with_DS4/build
+[0.885s] running develop
+[0.885s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.885s]   warnings.warn(
+[0.886s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.886s]   warnings.warn(
+[0.944s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[0.944s]   warnings.warn(
+[0.944s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[0.944s]   warnings.warn(
+[0.944s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[0.945s]   warnings.warn(
+[1.072s] Invoked command in '/home/ndt/ros2car-ws/build/drive_with_DS4' returned '0': PYTHONPATH=/home/ndt/ros2car-ws/build/drive_with_DS4/prefix_override:/home/ndt/ros2car-ws/install/drive_with_DS4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ndt/ros2car-ws/build/drive_with_DS4/build
+[1.074s] Invoking command in '/home/ndt/ros2car-ws/src/drive_with_DS4': PYTHONPATH=/home/ndt/ros2car-ws/build/drive_with_DS4/prefix_override:/home/ndt/ros2car-ws/install/drive_with_DS4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/drive_with_DS4 build --build-base /home/ndt/ros2car-ws/build/drive_with_DS4/build install --record /home/ndt/ros2car-ws/build/drive_with_DS4/install.log --single-version-externally-managed
+[1.301s] running egg_info
+[1.301s] writing ../../build/drive_with_DS4/drive_with_DS4.egg-info/PKG-INFO
+[1.302s] writing dependency_links to ../../build/drive_with_DS4/drive_with_DS4.egg-info/dependency_links.txt
+[1.302s] writing entry points to ../../build/drive_with_DS4/drive_with_DS4.egg-info/entry_points.txt
+[1.302s] writing requirements to ../../build/drive_with_DS4/drive_with_DS4.egg-info/requires.txt
+[1.302s] writing top-level names to ../../build/drive_with_DS4/drive_with_DS4.egg-info/top_level.txt
+[1.305s] reading manifest file '../../build/drive_with_DS4/drive_with_DS4.egg-info/SOURCES.txt'
+[1.306s] writing manifest file '../../build/drive_with_DS4/drive_with_DS4.egg-info/SOURCES.txt'
+[1.306s] running build
+[1.306s] running build_py
+[1.307s] copying drive_with_DS4/driver.py -> /home/ndt/ros2car-ws/build/drive_with_DS4/build/lib/drive_with_DS4
+[1.307s] running install
+[1.307s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.307s]   warnings.warn(
+[1.307s] running install_lib
+[1.308s] copying /home/ndt/ros2car-ws/build/drive_with_DS4/build/lib/drive_with_DS4/driver.py -> /home/ndt/ros2car-ws/install/drive_with_DS4/lib/python3.10/site-packages/drive_with_DS4
+[1.308s] byte-compiling /home/ndt/ros2car-ws/install/drive_with_DS4/lib/python3.10/site-packages/drive_with_DS4/driver.py to driver.cpython-310.pyc
+[1.309s] running install_data
+[1.309s] running install_egg_info
+[1.311s] removing '/home/ndt/ros2car-ws/install/drive_with_DS4/lib/python3.10/site-packages/drive_with_DS4-0.0.0-py3.10.egg-info' (and everything under it)
+[1.311s] Copying ../../build/drive_with_DS4/drive_with_DS4.egg-info to /home/ndt/ros2car-ws/install/drive_with_DS4/lib/python3.10/site-packages/drive_with_DS4-0.0.0-py3.10.egg-info
+[1.312s] running install_scripts
+[1.330s] Installing driver script to /home/ndt/ros2car-ws/install/drive_with_DS4/lib/drive_with_DS4
+[1.331s] writing list of installed files to '/home/ndt/ros2car-ws/build/drive_with_DS4/install.log'
+[1.353s] Invoked command in '/home/ndt/ros2car-ws/src/drive_with_DS4' returned '0': PYTHONPATH=/home/ndt/ros2car-ws/build/drive_with_DS4/prefix_override:/home/ndt/ros2car-ws/install/drive_with_DS4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/drive_with_DS4 build --build-base /home/ndt/ros2car-ws/build/drive_with_DS4/build install --record /home/ndt/ros2car-ws/build/drive_with_DS4/install.log --single-version-externally-managed

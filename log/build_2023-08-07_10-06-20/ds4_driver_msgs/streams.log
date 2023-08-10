@@ -1,0 +1,24 @@
+[0.055s] Invoking command in '/home/ndt/ros2car-ws/build/ds4_driver_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ndt/ros2car-ws/install/drive_with_DS4:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/ds4_driver_msgs -- -j6 -l6
+[0.709s] [  1%] Built target ds4_driver_msgs__cpp
+[0.709s] [  1%] Built target ament_cmake_python_symlink_ds4_driver_msgs
+[0.709s] [ 12%] Built target ds4_driver_msgs__rosidl_generator_c
+[0.709s] [ 23%] Built target ds4_driver_msgs__rosidl_typesupport_cpp
+[0.710s] [ 34%] Built target ds4_driver_msgs__rosidl_typesupport_introspection_cpp
+[0.710s] [ 45%] Built target ds4_driver_msgs__rosidl_typesupport_fastrtps_cpp
+[0.710s] [ 56%] Built target ds4_driver_msgs__rosidl_typesupport_fastrtps_c
+[0.710s] [ 67%] Built target ds4_driver_msgs__rosidl_typesupport_introspection_c
+[0.710s] [ 78%] Built target ds4_driver_msgs__rosidl_typesupport_c
+[0.710s] [ 78%] Built target ds4_driver_msgs
+[0.710s] [ 80%] Built target ds4_driver_msgs__py
+[0.710s] [ 89%] Built target ds4_driver_msgs__rosidl_generator_py
+[0.710s] [ 92%] Built target ds4_driver_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.710s] [ 96%] Built target ds4_driver_msgs__rosidl_typesupport_introspection_c__pyext
+[0.710s] [100%] Built target ds4_driver_msgs__rosidl_typesupport_c__pyext
+[0.710s] running egg_info
+[0.711s] writing ds4_driver_msgs.egg-info/PKG-INFO
+[0.711s] writing dependency_links to ds4_driver_msgs.egg-info/dependency_links.txt
+[0.711s] writing top-level names to ds4_driver_msgs.egg-info/top_level.txt
+[0.711s] reading manifest file 'ds4_driver_msgs.egg-info/SOURCES.txt'
+[0.711s] writing manifest file 'ds4_driver_msgs.egg-info/SOURCES.txt'
+[0.711s] [100%] Built target ament_cmake_python_build_ds4_driver_msgs_egg
+[0.731s] Invoked command in '/home/ndt/ros2car-ws/build/ds4_driver_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ndt/ros2car-ws/install/drive_with_DS4:/opt/ros/humble /usr/bin/cmake --build /home/ndt/ros2car-ws/build/ds4_driver_msgs -- -j6 -l6

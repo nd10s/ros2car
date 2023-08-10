@@ -1,0 +1,13 @@
+[1.213s] Invoking command in '/home/ndt/ros2car-ws/build/drive_with_DS4': PYTHONPATH=/home/ndt/ros2car-ws/build/drive_with_DS4/prefix_override:/home/ndt/ros2car-ws/install/drive_with_DS4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ndt/ros2car-ws/build/drive_with_DS4/build
+[1.576s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.576s]   warnings.warn(
+[1.577s] running develop
+[1.577s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.577s]   warnings.warn(
+[1.654s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[1.654s]   warnings.warn(
+[1.654s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.654s]   warnings.warn(
+[1.654s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.654s]   warnings.warn(
+[1.799s] Removing /home/ndt/ros2car-ws/install/drive_with_DS4/lib/python3.10/site-packages/drive-with-DS4.egg-link (link to .)

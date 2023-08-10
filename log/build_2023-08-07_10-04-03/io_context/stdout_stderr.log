@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target io_context[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[ 33%] Built target io_context
+[ 55%] Built target gtest
+[ 77%] Built target gtest_main
+[35m[1mConsolidate compiler generated dependencies of target test_io_context[0m
+[100%] Built target test_io_context
